@@ -12,8 +12,8 @@ export default function Header() {
 
   return (
     <header className="relative flex flex-col w-full">
-      {/* 🎄 Dager igjen til jul */}
-      <div className="absolute top-2 left-5">
+      {/* Dager igjen til jul */}
+      <div className="absolute left-5 -mt-10">
         <h1 className="text-xs sm:text-sm font-semibold opacity-80">
           {daysLeft > 0
             ? `${daysLeft} dager igjen til jul 🎄`
@@ -21,7 +21,7 @@ export default function Header() {
         </h1>
       </div>
 
-      {/* 💚 Grinch */}
+      {/* Grinch */}
       <div className="absolute top-0 right-0">
         <img
           src="/grinch.gif"
@@ -30,7 +30,7 @@ export default function Header() {
         />
       </div>
 
-      {/* 🎁 Midtstilt tittel */}
+      {/* Midtstilt tittel */}
       <div className="text-center text-2xl font-semibold mt-16">
         Ninas ønskeliste
       </div>

@@ -19,11 +19,11 @@ export default function SnowBackground() {
   }, []);
 
   return (
-    <div className="pointer-events-none fixed inset-0 overflow-hidden z-0">
+    <div className="pointer-events-none fixed inset-0 overflow-hidden -z-10 opacity-50">
       {flakes.map((flake) => (
         <img
           key={flake.id}
-          src="/snow.gif"
+          src="/snow.png"
           alt="Snowflake"
           className="absolute animate-snow-fall opacity-80"
           style={{
