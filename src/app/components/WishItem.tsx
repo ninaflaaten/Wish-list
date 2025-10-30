@@ -38,7 +38,6 @@ export function WishItem({
 
       <div className="min-w-0">
         <h3 className="truncate text-lg font-semibold">{title}</h3>
-        {/* <p className="text-sm opacity-70">Trykk for å se produktet</p> */}
       </div>
     </Link>
   );
