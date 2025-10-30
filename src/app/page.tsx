@@ -31,9 +31,7 @@ export default function Home() {
               <div className="flex items-center justify-center">
                 <img src="/gift.gif" alt="Gave" className="w-32 h-32" />
               </div>
-              <div className="flex items-center justify-center pt-5">
-                <img src="/point.gif" alt="Point" className="w-20 h-20" />
-              </div>
+              
             </span>
           </button>
         </div>

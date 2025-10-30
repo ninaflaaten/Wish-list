@@ -58,3 +58,14 @@ html.dark body {
 .animate-spin-slow {
   animation: spin-slow 8s linear infinite;
 }
+
+@font-face {
+  font-family: "Ruigslay";
+  src: url("/fonts/Ruigslay.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ruigslay {
+  font-family: "Ruigslay", serif;
+}

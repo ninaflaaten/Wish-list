@@ -14,7 +14,7 @@ export default function Header() {
     <header className="relative flex flex-col w-full">
       {/* Dager igjen til jul */}
       <div className="absolute left-5 -mt-10">
-        <h1 className="text-xs sm:text-sm font-semibold opacity-80">
+        <h1 className="text-xs sm:text-sm font-semibold opacity-80 font-serif">
           {daysLeft > 0
             ? `${daysLeft} dager igjen til jul 🎄`
             : "God jul! 🎅"}
@@ -26,12 +26,12 @@ export default function Header() {
         <img
           src="/grinch.gif"
           alt="Grinch"
-          className="w-24 h-24 object-contain"
+          className="w-30 h-30 object-contain"
         />
       </div>
 
       {/* Midtstilt tittel */}
-      <div className="text-center text-2xl font-semibold mt-16">
+      <div className="text-center text-3xl font-semibold mt-16 ruigslay">
         Ninas ønskeliste
       </div>
     </header>
