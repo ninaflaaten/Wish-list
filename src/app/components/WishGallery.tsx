@@ -13,7 +13,7 @@ export function WishGallery() {
       <WishItem
         title="kérastase Genesis"
         imageSrc="https://www.kerastase.no/-/media/project/loreal/brand-sites/kerastase/emea/nx/products/genesis/packshots/serum-anti-chute-fortifiant/serum-anti-chute-fortifiant-genesis-90ml-01-kerastase.png?rev=48624a94db18409a8b66ca46c14b4f8a"
-        link="https://www.vita.no/kerastase/kerastase-genesis-duo-holidays-coffret"
+        link="https://www.google.com/search?q=kerastase+genesis"
       />
       <WishItem
         title="kérastase Nutritive"
@@ -22,15 +22,15 @@ export function WishGallery() {
       />
 
       <WishItem
-        title="morgenkåpe (rosa/beige)"
+        title="morgenkåpe (burgunder/rosa/beige)"
         imageSrc="https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-watercolor-bathrobe-clip-art-png-image_11679299.png"
-        link="https://www.zalando.no/hunkemoeller-long-fluffy-badekape-pink-hm181u0a3-j11.html"
+        link="https://www.google.com/search?q=morgenkåpe+dame"
       />
 
       <WishItem
-        title="bunadssko (str. 37)"
-        imageSrc="https://res.cloudinary.com/tyrihans-production/image/upload/c_limit,d_standard_placeholder.png,f_auto,h_650,q_auto,w_650/v1622194268/p_61-70101_default_1"
-        link="https://www.google.com/search?q=bunadssko+dame"
+        title="bublizz godis"
+        imageSrc="/bublizz.gif"
+        link="https://www.google.com/search?q=bublizz"
       />
 
       <WishItem
@@ -48,9 +48,9 @@ export function WishGallery() {
       <WishItem
         title="tøfler (str. 37/38)"
         imageSrc="https://png.pngtree.com/png-vector/20250329/ourmid/pngtree-cozy-white-fluffy-slippers-for-winter-and-home-comfort-wear-png-image_15899252.png"
-        link="https://www.lindex.com/no/p/8582400-300-hvit-tofler-i-teddyf%C3%B4r"
+        link="https://www.google.com/search?q=teddy+tøfler"
       />
-      
+
       <WishItem
         title="Rema1000 / Coop / Tise / Zara / Ikea / Kid"
         imageSrc="/giftcard.png"

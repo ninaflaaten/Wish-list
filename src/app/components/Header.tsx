@@ -24,7 +24,7 @@ export default function Header() {
         <img
           src="/grinch.gif"
           alt="Grinch"
-          className="w-25 h-25 object-contain"
+          className="w-23 h-23 object-contain"
         />
       </div>
 

@@ -99,5 +99,5 @@ html.dark body {
 }
 
 .animate-slow-spin {
-  animation: slow-spin 10s linear infinite;
+  animation: slow-spin 5s linear infinite;
 }
