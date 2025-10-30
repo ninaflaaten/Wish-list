@@ -11,29 +11,6 @@ export function WishGallery() {
       />
 
       <WishItem
-        title="kérastase Genesis"
-        imageSrc="https://www.kerastase.no/-/media/project/loreal/brand-sites/kerastase/emea/nx/products/genesis/packshots/serum-anti-chute-fortifiant/serum-anti-chute-fortifiant-genesis-90ml-01-kerastase.png?rev=48624a94db18409a8b66ca46c14b4f8a"
-        link="https://www.google.com/search?q=kerastase+genesis"
-      />
-      <WishItem
-        title="kérastase Nutritive"
-        imageSrc="/kerastase-night-serum.png"
-        link="https://www.google.com/search?q=kerastase+nutritive+night+serum&sca_esv=490573eed39ba66d&ei=p4oDabGJN6DYwPAP3cXx6AQ&oq=kerastase+nu+serum&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmtlcmFzdGFzZSBudSBzZXJ1bSoCCAEyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHkiiEVC5BFinBnACeAGQAQCYAV6gAZ8BqgEBMrgBAcgBAPgBAZgCBKACtgHCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBZgDAIgGAZAGCpIHAzMuMaAH6g-yBwMxLjG4B6wBwgcFMC4xLjPIBw8&sclient=gws-wiz-serp"
-      />
-
-      <WishItem
-        title="morgenkåpe (burgunder/rosa/beige)"
-        imageSrc="https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-watercolor-bathrobe-clip-art-png-image_11679299.png"
-        link="https://www.google.com/search?q=morgenkåpe+dame"
-      />
-
-      <WishItem
-        title="bublizz godis"
-        imageSrc="/bublizz.gif"
-        link="https://www.google.com/search?q=bublizz"
-      />
-
-      <WishItem
         title="bunadskjorte"
         imageSrc="https://emblabunader.no/wp-content/uploads/2023/10/Loken_058.png"
         link="https://www.google.com/search?q=bunadskjorte+løkendrakt"
@@ -49,6 +26,26 @@ export function WishGallery() {
         title="tøfler (str. 37/38)"
         imageSrc="https://png.pngtree.com/png-vector/20250329/ourmid/pngtree-cozy-white-fluffy-slippers-for-winter-and-home-comfort-wear-png-image_15899252.png"
         link="https://www.google.com/search?q=teddy+tøfler"
+      />
+      <WishItem
+        title="kérastase Genesis"
+        imageSrc="https://www.kerastase.no/-/media/project/loreal/brand-sites/kerastase/emea/nx/products/genesis/packshots/serum-anti-chute-fortifiant/serum-anti-chute-fortifiant-genesis-90ml-01-kerastase.png?rev=48624a94db18409a8b66ca46c14b4f8a"
+        link="https://www.google.com/search?q=kerastase+genesis"
+      />
+      <WishItem
+        title="kérastase Nutritive"
+        imageSrc="/kerastase-night-serum.png"
+        link="https://www.google.com/search?q=kerastase+nutritive+night+serum&sca_esv=490573eed39ba66d&ei=p4oDabGJN6DYwPAP3cXx6AQ&oq=kerastase+nu+serum&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmtlcmFzdGFzZSBudSBzZXJ1bSoCCAEyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHkiiEVC5BFinBnACeAGQAQCYAV6gAZ8BqgEBMrgBAcgBAPgBAZgCBKACtgHCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBZgDAIgGAZAGCpIHAzMuMaAH6g-yBwMxLjG4B6wBwgcFMC4xLjPIBw8&sclient=gws-wiz-serp"
+      />
+      <WishItem
+        title="bublizz godis"
+        imageSrc="/bublizz.gif"
+        link="https://www.google.com/search?q=bublizz"
+      />
+      <WishItem
+        title="morgenkåpe (burgunder/rosa/beige)"
+        imageSrc="https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-watercolor-bathrobe-clip-art-png-image_11679299.png"
+        link="https://www.google.com/search?q=morgenkåpe+dame"
       />
 
       <WishItem
