@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { WishItem } from "./components/WishItem";
 import ThemeSwitch from "./ThemeSwitch";
+import { WishGallery } from "./components/WishGallery";
 
 export default function Home() {
   const [opened, setOpened] = useState(false);
@@ -11,7 +12,7 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Overlay/landing */}
       {!opened && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black text-white">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-white text-black">
           <button
             onClick={() => setOpened(true)}
             aria-label="Åpne ønskelista"
@@ -23,9 +24,7 @@ export default function Home() {
             >
               🎁
             </span>
-            <span className="text-lg opacity-80">
-              Trykk for å åpne ønskelista
-            </span>
+            <span className="text-lg opacity-80">Åpne meg</span>
           </button>
         </div>
       )}
@@ -36,12 +35,8 @@ export default function Home() {
           <ThemeSwitch />
         </div>
         <h1 className="mt-10 text-2xl font-semibold">Ninas ønskeliste</h1>
-
-        <WishItem
-          title="Paula's Choice Calm Toner"
-          imageSrc="https://www.nordicfeel.com/storage/.../P-115511.jpg?width=320&height=320"
-          link="https://www.kicks.no/paulas-choice-calm-nourishing-milky-toner-118-ml"
-        />
+        <WishGallery/>
+       
         {/* Legg til flere WishItem ... */}
       </main>
     </div>
