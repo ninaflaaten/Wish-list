@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { WishItem } from "./components/WishItem";
+import ThemeSwitch from "./ThemeSwitch";
 
 export default function Home() {
   const [opened, setOpened] = useState(false);
@@ -31,9 +32,10 @@ export default function Home() {
 
       {/* Selve siden/innholdet */}
       <main className="mx-auto flex min-h-screen max-w-3xl flex-col items-center gap-6 p-8">
-        <h1 className="mt-10 text-2xl font-semibold text-black">
-          Ninas ønskeliste
-        </h1>
+        <div className="flex w-full items-center justify-end">
+          <ThemeSwitch />
+        </div>
+        <h1 className="mt-10 text-2xl font-semibold">Ninas ønskeliste</h1>
 
         <WishItem
           title="MacBook Air"
