@@ -12,19 +12,26 @@ export default function Home() {
     <div className="min-h-screen">
       {/* Overlay/landing */}
       {!opened && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-white text-black">
+        <div className="fixed inset-0 z-50 grid place-items-center
+                bg-white/75 text-black
+                dark:bg-black/75 dark:text-white
+                backdrop-blur-sm">
           <button
             onClick={() => setOpened(true)}
             aria-label="Åpne ønskelista"
             className="flex flex-col items-center gap-4 focus:outline-none"
           >
             <span
-              className="text-9xl animate-bounce"
+              className="text-9xl"
               style={{ animationDuration: "2s" }}
             >
-              🎁
+              <div className="flex items-center justify-center">
+                <img src="/gift.gif" alt="Gave" className="w-32 h-32" />
+              </div>
+              <div className="flex items-center justify-center pt-5">
+                <img src="/point.gif" alt="Point" className="w-20 h-20" />
+              </div>
             </span>
-            <span className="text-lg opacity-80">Åpne meg</span>
           </button>
         </div>
       )}
@@ -35,8 +42,8 @@ export default function Home() {
           <ThemeSwitch />
         </div>
         <h1 className="mt-10 text-2xl font-semibold">Ninas ønskeliste</h1>
-        <WishGallery/>
-       
+        <WishGallery />
+
         {/* Legg til flere WishItem ... */}
       </main>
     </div>

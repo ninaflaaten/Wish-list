@@ -10,7 +10,6 @@ export default function ThemeSwitch() {
   const { setTheme, resolvedTheme } = useTheme()
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- mark the component as mounted after hydration
     setMounted(true)
   }, [])
 
