@@ -16,7 +16,12 @@ export default function Home() {
             aria-label="Åpne ønskelista"
             className="flex flex-col items-center gap-4 focus:outline-none"
           >
-            <span className="text-9xl animate-bounce ">🎁</span>
+            <span
+              className="text-9xl animate-bounce"
+              style={{ animationDuration: "2s" }}
+            >
+              🎁
+            </span>
             <span className="text-lg opacity-80">
               Trykk for å åpne ønskelista
             </span>
@@ -26,7 +31,7 @@ export default function Home() {
 
       {/* Selve siden/innholdet */}
       <main className="mx-auto flex min-h-screen max-w-3xl flex-col items-center gap-6 p-8">
-        <h1 className="mt-10 text-2xl font-semibold text-black dark:text-white">
+        <h1 className="mt-10 text-2xl font-semibold text-black">
           Ninas ønskeliste
         </h1>
 
