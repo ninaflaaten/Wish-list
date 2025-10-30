@@ -4,7 +4,7 @@ export function WishGallery() {
   return (
     <>
       <WishItem
-        title="Kérastase Nutritive: Magic Night Serum"
+        title="Kérastase: Magic Night Serum"
         imageSrc="/kerastase-night-serum.png"
         link="https://www.google.com/search?q=kerastase+nutritive+night+serum&sca_esv=490573eed39ba66d&ei=p4oDabGJN6DYwPAP3cXx6AQ&oq=kerastase+nu+serum&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmtlcmFzdGFzZSBudSBzZXJ1bSoCCAEyBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHkiiEVC5BFinBnACeAGQAQCYAV6gAZ8BqgEBMrgBAcgBAPgBAZgCBKACtgHCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBZgDAIgGAZAGCpIHAzMuMaAH6g-yBwMxLjG4B6wBwgcFMC4xLjPIBw8&sclient=gws-wiz-serp"
       />
