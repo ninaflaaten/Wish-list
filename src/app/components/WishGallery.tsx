@@ -12,8 +12,8 @@ export function WishGallery() {
 
       <WishItem
         title="bunadskjorte"
-        imageSrc="https://emblabunader.no/wp-content/uploads/2023/10/Loken_058.png"
-        link="https://www.google.com/search?q=bunadskjorte+løkendrakt"
+        imageSrc="https://sidserk.no/cdn/shop/files/bunadskjorte_kari_tyrihans.webp?v=1741095493&width=320"
+        link="https://www.google.com/search?q=bunadskjorte"
       />
 
       <WishItem
@@ -31,6 +31,11 @@ export function WishGallery() {
         title="kérastase Genesis"
         imageSrc="https://www.kerastase.no/-/media/project/loreal/brand-sites/kerastase/emea/nx/products/genesis/packshots/serum-anti-chute-fortifiant/serum-anti-chute-fortifiant-genesis-90ml-01-kerastase.png?rev=48624a94db18409a8b66ca46c14b4f8a"
         link="https://www.google.com/search?q=kerastase+genesis"
+      />
+       <WishItem
+        title="bunadsko"
+        imageSrc="/bunad-sko.png"
+        link="https://www.google.com/search?q=bunadsko"
       />
       <WishItem
         title="kérastase Nutritive"
