@@ -38,9 +38,9 @@ export default function Home() {
         <h1 className="mt-10 text-2xl font-semibold">Ninas ønskeliste</h1>
 
         <WishItem
-          title="MacBook Air"
-          imageSrc="/next.svg"
-          link="https://apple.com"
+          title="Paula's Choice Calm Toner"
+          imageSrc="https://www.nordicfeel.com/storage/.../P-115511.jpg?width=320&height=320"
+          link="https://www.kicks.no/paulas-choice-calm-nourishing-milky-toner-118-ml"
         />
         {/* Legg til flere WishItem ... */}
       </main>

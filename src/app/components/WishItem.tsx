@@ -1,28 +1,30 @@
-import Image from "next/image";
+'use client';
 
-export const WishItem = ({
-  title,
-  imageSrc,
-  link,
-}: {
-  title: string;
-  imageSrc: string;
-  link: string;
-}) => {
+import Image from 'next/image';
+import Link from 'next/link';
+
+type Props = { title: string; imageSrc: string; link: string };
+
+export function WishItem({ title, imageSrc, link }: Props) {
   return (
-    <div className="flex flex-col items-center gap-2">
-      <p className="font-medium">{title}</p>
-      <Image src={imageSrc} alt={title} width={100} height={20} />
-      <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 
-        hover:border-transparent hover:bg-black/[.04] 
-        md:w-[158px]"
-      >
-        Gå til ønsket
-      </a>
-    </div>
+    <Link href={link} target="_blank" rel="noopener noreferrer" className="w-full">
+      <article className="flex gap-4 rounded-2xl border p-4 hover:shadow-md">
+        <div className="relative h-28 w-28 shrink-0 overflow-hidden rounded-xl">
+          <Image
+            src={imageSrc}
+            alt={title}
+            fill
+            sizes="112px"
+            className="object-cover"
+            priority={false}
+            unoptimized
+          />
+        </div>
+        <div className="min-w-0 self-center">
+          <h3 className="truncate text-lg font-medium">{title}</h3>
+          <p className="text-sm opacity-70">Trykk for å se produktet</p>
+        </div>
+      </article>
+    </Link>
   );
-};
+}
