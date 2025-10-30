@@ -17,9 +17,9 @@ html.dark body {
     font-size: 1.25rem; /* ~20px */
   }
   h3 {
-    font-size: 1rem; /* ~16px */
+    font-size:  0.875rem; /* ~14px */
   }
   p {
-    font-size: 0.875rem; /* ~14px */
+    font-size: 0.75rem; /* ~12px */
   }
 }
