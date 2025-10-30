@@ -1,7 +1,5 @@
 "use client";
 
-import React from "react";
-
 export default function Header() {
   // Beregn dager igjen til jul 🎅
   const today = new Date();
@@ -13,10 +11,10 @@ export default function Header() {
   return (
     <header className="relative flex flex-col w-full">
       {/* Dager igjen til jul */}
-      <div className="absolute left-5 -mt-10">
-        <h1 className="text-xs sm:text-sm font-semibold opacity-80 font-serif">
+      <div className="absolute left-5 -mt-10 ">
+        <h1 className="text-xs sm:text-sm font-semibold opacity-80 font-serif animate-pulse">
           {daysLeft > 0
-            ? `${daysLeft} dager igjen til jul 🎄`
+            ? `${daysLeft} dager til jul 🎄`
             : "God jul! 🎅"}
         </h1>
       </div>
@@ -26,7 +24,7 @@ export default function Header() {
         <img
           src="/grinch.gif"
           alt="Grinch"
-          className="w-30 h-30 object-contain"
+          className="w-25 h-25 object-contain"
         />
       </div>
 

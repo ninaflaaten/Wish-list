@@ -44,7 +44,7 @@ export default function Home() {
         </div>
 
         {/* Header */}
-        <div className="w-full">
+        <div className="w-full backdrop-blur">
           <WishlistHeader />
         </div>
 
@@ -52,8 +52,8 @@ export default function Home() {
         <section className="flex flex-col gap-6 px-4 sm:px-6 md:px-8 mt-6 w-full lg:w-[800px] mx-auto">
           {" "}
           <WishGallery />
-          <Footer />
-        </section>
+          
+        </section><Footer />
       </main>
     </div>
   );

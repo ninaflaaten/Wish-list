@@ -23,7 +23,7 @@ export function WishItem({
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className={`flex w-full items-center gap-4 rounded-2xl backdrop-blur-md hover:shadow-md transition ${
+      className={`flex w-full items-center gap-4 rounded-2xl backdrop-blur-md dark:border-white/10 hover:shadow-md transition ${
         className ?? ""
       }`}
     >
