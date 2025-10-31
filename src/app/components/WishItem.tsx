@@ -44,6 +44,7 @@ export function WishItem({
 
       <div className="min-w-0">
         <h3 className="truncate text-lg font-semibold font-serif">{title}</h3>
+        <p>Klikk på meg</p>
       </div>
     </Link>
   );
