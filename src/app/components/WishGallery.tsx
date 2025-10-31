@@ -25,21 +25,28 @@ export function WishGallery() {
         link="https://www.google.com/search?q=teddy+tøfler"
       />
       <WishItem
+        title="Sindre hjem til jul"
+        imageSrc="/Sindre1.png"
+        link="https://india-manipal-journey.vercel.app/"
+        imageClassName="animate-bounce"
+      />
+      <WishItem
         title="kérastase Genesis"
         imageSrc="https://www.kerastase.no/-/media/project/loreal/brand-sites/kerastase/emea/nx/products/genesis/packshots/serum-anti-chute-fortifiant/serum-anti-chute-fortifiant-genesis-90ml-01-kerastase.png?rev=48624a94db18409a8b66ca46c14b4f8a"
         link="https://www.google.com/search?q=kerastase+genesis"
       />
-
+      <WishItem
+        title="ferie i Thailand"
+        imageSrc="https://png.pngtree.com/png-clipart/20241119/original/pngtree-krabi-thailand-provinces-vintage-travel-plate-or-banner-vector-tourist-destination-png-image_17228636.png"
+        link="https://www.google.com/search?q=bunadsko"
+        imageClassName="animate-slow-spin"
+      />
       <WishItem
         title="bunadsko"
         imageSrc="/bunad-sko.png"
         link="https://www.google.com/search?q=bunadsko"
       />
-      <WishItem
-        title="bublizz godis"
-        imageSrc="/bublizz.gif"
-        link="https://www.google.com/search?q=bublizz"
-      />
+
       <WishItem
         title="kérastase Nutritive"
         imageSrc="/kerastase-night-serum.png"
@@ -52,7 +59,12 @@ export function WishGallery() {
         link="https://www.google.com/search?q=morgenkåpe+dame"
       />
       <WishItem
-        title="Rema1000 / Coop / Tise / Zara / Ikea / Kid"
+        title="bublizz godis"
+        imageSrc="/bublizz.gif"
+        link="https://www.google.com/search?q=bublizz"
+      />
+      <WishItem
+        title="matbutikk / Tise / Ikea / Zara"
         imageSrc="/giftcard.png"
         link="https://www.google.com/search?q=gavekort+matbutikk"
       />
