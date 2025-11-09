@@ -20,6 +20,11 @@ export function WishGallery() {
         link="https://www.google.com/search?q=cute+pajama+set"
       />
       <WishItem
+        title="Dolce & Gabbana Everlast primer"
+        imageSrc="https://lyko.com/globalassets/product-images/dolcegabbana-everlast-primer-24h-blurred-matte-pore-minimizing-2x-makeup-wear-28ml-1024-453-0028_1.jpg?ref=6399F51EB7"
+        link="https://www.google.com/search?q=dolce+gabbana+everlast+primer"
+      />
+      <WishItem
         title="tøfler (str. 37/38)"
         imageSrc="https://png.pngtree.com/png-vector/20250329/ourmid/pngtree-cozy-white-fluffy-slippers-for-winter-and-home-comfort-wear-png-image_15899252.png"
         link="https://www.google.com/search?q=teddy+tøfler"
