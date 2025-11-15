@@ -59,7 +59,7 @@ export function WishGallery() {
       />
 
       <WishItem
-        title="morgenkåpe (burgunder/rosa/beige)"
+        title="lang morgenkåpe uten hette (burgunder/rosa/sort)"
         imageSrc="https://png.pngtree.com/png-vector/20240207/ourmid/pngtree-watercolor-bathrobe-clip-art-png-image_11679299.png"
         link="https://www.google.com/search?q=morgenkåpe+dame"
       />
