@@ -23,7 +23,7 @@ export function WishItem({
       href={link}
       target="_blank"
       rel="noopener noreferrer"
-      className={`flex w-full items-center gap-4 rounded-2xl backdrop-blur-md dark:border-white/10 hover:shadow-md transition ${
+      className={`flex w-full items-center gap-4 rounded-2xl backdrop-blur-md dark:border-white/10 hover:shadow-md transition flex-wrap sm:flex-nowrap ${
         className ?? ""
       }`}
     >
@@ -42,8 +42,11 @@ export function WishItem({
         />
       </div>
 
-      <div className="min-w-0">
-        <h3 className="truncate text-lg font-semibold font-serif">{title}</h3>
+      {/* Tekstblokk som kan wrappe fint på mobil */}
+      <div className="flex-1 min-w-[10rem]">
+        <h3 className="text-lg font-semibold font-serif break-words">
+          {title}
+        </h3>
         <p>Klikk på meg</p>
       </div>
     </Link>
