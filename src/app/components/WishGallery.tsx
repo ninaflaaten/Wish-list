@@ -61,7 +61,7 @@ export function WishGallery() {
       <WishItem
         title="ferie i Thailand"
         imageSrc="https://png.pngtree.com/png-clipart/20241119/original/pngtree-krabi-thailand-provinces-vintage-travel-plate-or-banner-vector-tourist-destination-png-image_17228636.png"
-        link="https://www.google.com/search?q=bunadsko"
+        link="https://www.google.com/search?q=sheraton+hua+hin+resort+spa+thailand"
         imageClassName="animate-slow-spin"
       />
       <WishItem
