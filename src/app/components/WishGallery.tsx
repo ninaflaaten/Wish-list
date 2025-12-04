@@ -37,6 +37,15 @@ export function WishGallery() {
         imageSrc="https://png.pngtree.com/png-clipart/20210905/original/pngtree-pajama-style-home-clothing-png-image_6704795.jpg"
         link="https://www.google.com/search?q=cute+pajama+set"
       />
+
+
+       <WishItem
+        title="Treningssokker: Nike/Adidas/Puma/liknende"
+        imageSrc="/sokker.png"
+        link="https://www.google.com/search?q=nike+sokker&sca_esv=711d87e2c6f6d006&udm=3&biw=1470&bih=797&ei=VgcyaefhLsixwPAPzM7PoAo&ved=0ahUKEwjn5O6D-qSRAxXIGBAIHUznE6QQ4dUDCBA&uact=5&oq=nike+sokker&gs_lp=Ehlnd3Mtd2l6LW1vZGVsZXNzLXByb2R1Y3RzIgtuaWtlIHNva2tlcjIGEAAYFhgeSIkPUPMEWJIOcAN4AZABAJgBR6AByAWqAQIxMbgBA8gBAPgBAZgCDqAC-wXCAgoQABiwAxjWBBhHwgIKEAAYgAQYQxiKBcICBRAAGIAEwgIHEAAYgAQYDcICChAAGIAEGNYFGA2YAwCIBgGQBgiSBwIxNKAHjiqyBwIxMbgH9wXCBwUyLjQuOMgHIg&sclient=gws-wiz-modeless-products"
+      />
+
+
       <WishItem
         title="Dolce & Gabbana Everlast primer"
         imageSrc="https://lyko.com/globalassets/product-images/dolcegabbana-everlast-primer-24h-blurred-matte-pore-minimizing-2x-makeup-wear-28ml-1024-453-0028_1.jpg?ref=6399F51EB7"
