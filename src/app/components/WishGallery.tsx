@@ -9,6 +9,12 @@ export function WishGallery() {
         link="https://www.google.com/search?q=engangskamera"
         imageClassName="animate-slow-spin"
       />
+
+      <WishItem
+        title="Suri, Norsk Lamull, div farger (rabattkode: Christmas)"
+        imageSrc="https://skappeloslo.com/cdn/shop/files/Suri-Norsk-Lamull-1001.jpg?v=1747918634&width=2400"
+        link="https://skappeloslo.com/no-no/products/suri-norwegian-lambswool"
+      />
       <WishItem
         title="bunadskjorte"
         imageSrc="https://sidserk.no/cdn/shop/files/bunadskjorte_kari_tyrihans.webp?v=1741095493&width=320"
